@@ -35,7 +35,8 @@ function main() {
                     queue: false
                 }
             });
-            $('.cat a').click(function () {
+            $('.cat a').click(function (e) {
+                e.preventDefault();
                 $('.cat .active').removeClass('active');
                 $(this).addClass('active');
                 var selector = $(this).attr('data-filter');
