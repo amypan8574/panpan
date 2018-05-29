@@ -193,8 +193,8 @@ header .intro-text {
 }
 #about img {
 	border-radius: 50%;
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: auto;
 	display: inline-block;
 }
 #about p {
@@ -373,7 +373,7 @@ header .intro-text {
   }
   
   .work .work-popup-content-divider {
-	border-left: 1px solid #cdcecf;
+	border-right: 1px solid #cdcecf;
   }
   
   @media (max-width: 768px) {
